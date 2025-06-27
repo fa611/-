@@ -1,0 +1,475 @@
+!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>رواد المستقبل - التسجيل في جامعات إسطنبول الخاصة</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #0a0a0a;
+      color: #d4af37; /* ذهبي */
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px 10px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #d4af37;
+      letter-spacing: 2px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #f0d87d;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-right: 20px;
+      color: #f0d87d;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      max-width: 280px;
+      border: 3px solid #d4af37;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #d4af37;
+    }
+
+    form {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #d4af37;
+      max-width: 400px;
+      margin: auto;
+      color: #d4af37;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #d4af37;
+      border-radius: 4px;
+      background-color: #222;
+      color: #f0d87d;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: none;
+      border-color: #f0d87d;
+      box-shadow: 0 0 5px #f0d87d;
+    }
+
+    form button {
+      background-color: #d4af37;
+      color: #0a0a0a;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    form button:hover {
+      background-color: #b88b24;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 1.2rem;
+      color: #f0d87d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid #d4af37;
+      color: #d4af37;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .gallery img {
+        max-width: 100%;
+      }
+      main {
+        padding: 0 10px;
+      }
+      form {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>رواد المستقبل</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>مرحباً بكم في رواد المستقبل</h2>
+      <p>
+        هل تحلم بالدراسة في أفضل الجامعات الخاصة في إسطنبول؟ مع <strong>رواد المستقبل</strong>، نحن هنا لنساعدك في تحقيق حلمك بكل سهولة.
+        نقدم لك خدمات متكاملة للتسجيل في الجامعات التركية الخاصة، مع دعم كامل من اختيار الجامعة حتى قبولك الرسمي.
+      </p>
+    </section>
+
+    <section>
+      <h2>الجامعات الخاصة في إسطنبول</h2>
+      <ul>
+        <li>جامعة كوتش (Koç University)</li>
+        <li>جامعة بيكنت (Bilkent University)</li>
+        <li>جامعة سابانجي (Sabancı University)</li>
+      </ul>
+      <p>
+        نساعدك في اختيار الجامعة التي تناسب تخصصك وطموحاتك.
+      </p>
+    </section>
+
+    <section>
+      <h2>طريقة التسجيل مع رواد المستقبل</h2>
+      <ol style="color:#f0d87d; padding-right:20px;">
+        <li>تواصل معنا وشاركنا تخصصك ورغباتك.</li>
+        <li>نساعدك في تجهيز الوثائق المطلوبة وتعبئة استمارات التسجيل.</li>
+        <li>نتابع ملفك مع الجامعة حتى تحصل على القبول.</li>
+        <li>نقدم لك نصائح ودعم حول تأشيرة الدخول والإقامة في تركيا.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>معرض الصور</h2>
+      <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Ko%C3%A7_University_Logo.svg" alt="جامعة كوتش" title="جامعة كوتش" />
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Bilkent_University_logo.svg/1200px-Bilkent_University_logo.svg.png" alt="جامعة بيكنت" title="جامعة بيكنت" />
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Sabanci_University_logo.svg/1200px-Sabanci_University_logo.svg.png" alt="جامعة سابانجي" title="جامعة سابانجي" />
+      </div>
+    </section>
+
+    <section>
+      <h2>تواصل معنا</h2>
+      <div class="contact-info">
+        <p>رقم الهاتف: <a href="tel:+905349268003" style="color:#d4af37; text-decoration:none;">0090 534 926 8003</a></p>
+        <p>البريد الإلكتروني: <a href="mailto:fatmasiha720@gmail.com" style="color:#d4af37; text-decoration:none;">fatmasiha720@gmail.com</a></p>
+      </div>
+      <form action="#" method="post" onsubmit="alert('تم إرسال رسالتك، شكراً لتواصلك معنا!'); return false;">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 رواد المستقبل - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
+!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>رواد المستقبل - التسجيل في جامعات إسطنبول الخاصة</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #0a0a0a;
+      color: #d4af37; /* ذهبي */
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px 10px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #d4af37;
+      letter-spacing: 2px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #f0d87d;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-right: 20px;
+      color: #f0d87d;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      max-width: 280px;
+      border: 3px solid #d4af37;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #d4af37;
+    }
+
+    form {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #d4af37;
+      max-width: 400px;
+      margin: auto;
+      color: #d4af37;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #d4af37;
+      border-radius: 4px;
+      background-color: #222;
+      color: #f0d87d;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: none;
+      border-color: #f0d87d;
+      box-shadow: 0 0 5px #f0d87d;
+    }
+
+    form button {
+      background-color: #d4af37;
+      color: #0a0a0a;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    form button:hover {
+      background-color: #b88b24;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 1.2rem;
+      color: #f0d87d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid #d4af37;
+      color: #d4af37;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .gallery img {
+        max-width: 100%;
+      }
+      main {
+        padding: 0 10px;
+      }
+      form {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>رواد المستقبل</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>مرحباً بكم في رواد المستقبل</h2>
+      <p>
+        هل تحلم بالدراسة في أفضل الجامعات الخاصة في إسطنبول؟ مع <strong>رواد المستقبل</strong>، نحن هنا لنساعدك في تحقيق حلمك بكل سهولة.
+        نقدم لك خدمات متكاملة للتسجيل في الجامعات التركية الخاصة، مع دعم كامل من اختيار الجامعة حتى قبولك الرسمي.
+      </p>
+    </section>
+
+    <section>
+      <h2>الجامعات الخاصة في إسطنبول</h2>
+      <ul>
+        <li>جامعة كوتش (Koç University)</li>
+        <li>جامعة بيكنت (Bilkent University)</li>
+        <li>جامعة سابانجي (Sabancı University)</li>
+      </ul>
+      <p>
+        نساعدك في اختيار الجامعة التي تناسب تخصصك وطموحاتك.
+      </p>
+    </section>
+
+    <section>
+      <h2>طريقة التسجيل مع رواد المستقبل</h2>
+      <ol style="color:#f0d87d; padding-right:20px;">
+        <li>تواصل معنا وشاركنا تخصصك ورغباتك.</li>
+        <li>نساعدك في تجهيز الوثائق المطلوبة وتعبئة استمارات التسجيل.</li>
+        <li>نتابع ملفك مع الجامعة حتى تحصل على القبول.</li>
+        <li>نقدم لك نصائح ودعم حول تأشيرة الدخول والإقامة في تركيا.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>معرض الصور</h2>
+      <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Ko%C3%A7_University_Logo.svg" alt="جامعة كوتش" title="جامعة كوتش" />
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Bilkent_University_logo.svg/1200px-Bilkent_University_logo.svg.png" alt="جامعة بيكنت" title="جامعة بيكنت" />
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Sabanci_University_logo.svg/1200px-Sabanci_University_logo.svg.png" alt="جامعة سابانجي" title="جامعة سابانجي" />
+      </div>
+    </section>
+
+    <section>
+      <h2>تواصل معنا</h2>
+      <div class="contact-info">
+        <p>رقم الهاتف: <a href="tel:+905349268003" style="color:#d4af37; text-decoration:none;">0090 534 926 8003</a></p>
+        <p>البريد الإلكتروني: <a href="mailto:fatmasiha720@gmail.com" style="color:#d4af37; text-decoration:none;">fatmasiha720@gmail.com</a></p>
+      </div>
+      <form action="#" method="post" onsubmit="alert('تم إرسال رسالتك، شكراً لتواصلك معنا!'); return false;">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 رواد المستقبل - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
+ 
